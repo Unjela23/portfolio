@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body{
+    font-family: "DM Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    background-color: floralwhite;
+min-height: 100vh;
+}
+nav{
+    display: flex;
+    align-items:center;
+justify-content: space-between;
+padding: 1rem;
+background-color:antiquewhite;
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+
+}
+.tap{
+    color:palevioletred;
+}
+ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+a{
+    text-decoration:none ;
+    font-weight: bold;
+    color: #000;
+}
+i{
+    color:palevioletred;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding:1rem;
+    align-items: center;
+margin-top: 6rem;
+}
+.big{
+    font-size: 4rem
+}
+.bold{
+     color:palevioletred;
+     font-size: 4rem;
+}
+.word{
+    font-size: 1.5rem;
+    color: gray;
+}
+.herobtn{
+    border-radius: 1rem;
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+padding-right: 1.5rem;
+border:none ;
+background-color:palevioletred ;
+
+}
+img{
+  border-radius: 50rem;  
+}
+.open{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.skills{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.cap{
+    background-color:antiquewhite;
+}
+
+i{
+  padding: 1rem; 
+  font-size: 2rem; 
+}
+span{
+
+    padding: 0.3px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    margin-right: 0.5rem;
+    background-color:palevioletred ;
+border-radius: 1rem;
+font-size: medium;
+
+}
+.about{
+    background-color: antiquewhite;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.social{
+    text-align: center;
+    border-radius: 5rem;
+}
+.stan{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+li{
+    list-style:none;
+
+}
+footer{
+    background-color: antiquewhite;
+    display: flex;
+    align-items:center;
+justify-content: space-between;
+padding: 1rem;
+}
+.one{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    
+}
+.icon{
+    display: flex;
+ justify-content: flex-end;
+    
+}
